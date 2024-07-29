@@ -32,7 +32,7 @@
             >;
         };
 
-        layer_1 {
+        num_sym_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -41,7 +41,7 @@
             >;
         };
 
-        layer_2 {
+        nav_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -50,7 +50,7 @@
             >;
         };
 
-        layer_3 {
+        fn_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
