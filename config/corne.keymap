@@ -22,18 +22,15 @@
     };
 
     behaviors {
-        hrm_l: hrm_l {
+        hrm: hrm {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_L";
+            label = "HRM";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
-            tapping-term-ms = <100>;
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <125>;
-            retro-tap;
-            hold-trigger-key-positions = <6 18 30 39 40 33 34 35 8 9 10 11 20 21 22 23 32 33 34 35 41 7 19 31>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
         };
     };
 
@@ -42,10 +39,10 @@
 
         default_layer {
             bindings = <
-&kp GRAVE     &kp Q              &kp W              &kp E           &kp R                &kp T        &kp Y      &kp U          &kp I      &kp O    &kp P          &kp DELETE
-&kp CAPSLOCK  &hrm_l LEFT_GUI A  &hrm_l LEFT_ALT S  &hrm_l LCTRL D  &hrm_l LEFT_SHIFT F  &kp G        &kp H      &kp J          &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-&trans        &kp Z              &kp X              &kp C           &kp V                &kp B        &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH       &trans
-                                                    &mo 1           &kp SPACE            &lt 3 TAB    &lt 4 RET  &kp BACKSPACE  &mo 2
+&kp GRAVE     &kp Q            &kp W            &kp E         &kp R              &kp T        &kp Y      &kp U               &kp I                 &kp O            &kp P                     &kp DELETE
+&kp CAPSLOCK  &hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LCTRL D  &hrm LEFT_SHIFT F  &kp G        &kp H      &hrm RIGHT_SHIFT J  &hrm RIGHT_CONTROL K  &hrm LEFT_ALT L  &hrm RIGHT_GUI SEMICOLON  &kp SINGLE_QUOTE
+&trans        &kp Z            &kp X            &kp C         &kp V              &kp B        &kp N      &kp M               &kp COMMA             &kp DOT          &kp FSLH                  &trans
+                                                &mo 1         &kp SPACE          &lt 3 TAB    &lt 4 RET  &kp BACKSPACE       &mo 2
             >;
         };
 
