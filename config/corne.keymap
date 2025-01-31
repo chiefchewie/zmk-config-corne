@@ -50,7 +50,7 @@
         default_layer {
             bindings = <
 &kp ESCAPE    &kp Q              &kp W              &kp F                  &kp P                &kp B        &kp J      &kp L                 &kp U                       &kp Y                   &kp SQT                &kp DELETE
-&kp CAPSLOCK  &kp A              &kp R              &kp S                  &kp T                &kp G        &kp M      &kp N                 &kp E                       &kp I                   &kp O                  &trans
+&kp CAPSLOCK  &kp A              &kp R              &kp S                  &kp T                &kp G        &kp M      &kp N                 &kp E                       &kp I                   &kp O                  &kp SEMICOLON
 &kp GRAVE     &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT D  &kp V        &kp K      &hrm_r RIGHT_SHIFT H  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI FSLH  &trans
                                                     &mo 2                  &kp SPACE            &lt 3 TAB    &lt 4 RET  &kp BACKSPACE         &mo 1
             >;
@@ -76,10 +76,10 @@
 
         bt_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans    &kp K_UNDO  &kp K_CUT      &kp K_COPY   &kp K_PASTE  &kp K_REDO  &trans
-&trans      &trans        &trans        &trans        &trans        &trans    &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT    &trans      &trans
-&trans      &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &trans    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END      &trans      &trans
-                                        &trans        &trans        &trans    &trans      &trans         &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp K_UNDO  &kp K_CUT      &kp K_COPY   &kp K_PASTE  &kp K_REDO  &trans
+&trans      &trans        &trans        &trans        &trans        &trans          &kp LEFT    &kp DOWN       &kp UP       &kp RIGHT    &trans      &trans
+&trans      &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHFT     &trans          &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP  &kp END      &trans      &trans
+                                        &trans        &trans        &trans          &trans      &trans         &trans
             >;
         };
 
