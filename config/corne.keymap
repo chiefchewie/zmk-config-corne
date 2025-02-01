@@ -51,7 +51,7 @@
             bindings = <
 &kp ESCAPE    &kp Q              &kp W              &kp F                  &kp P                &kp B        &kp J      &kp L                 &kp U                       &kp Y                   &kp SQT                &kp DELETE
 &kp CAPSLOCK  &kp A              &kp R              &kp S                  &kp T                &kp G        &kp M      &kp N                 &kp E                       &kp I                   &kp O                  &kp SEMICOLON
-&kp GRAVE     &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT D  &kp V        &kp K      &hrm_r RIGHT_SHIFT H  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI FSLH  &trans
+&kp GRAVE     &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT D  &kp V        &kp K      &hrm_r RIGHT_SHIFT H  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI FSLH  &tog 5
                                                     &mo 1                  &kp SPACE            &lt 3 TAB    &lt 4 RET  &kp BACKSPACE         &mo 2
             >;
         };
@@ -89,6 +89,24 @@
 &trans  &kp F11  &kp F4  &kp F5  &kp F7  &kp PRINTSCREEN    &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &trans  &trans
 &trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans             &trans  &kp C_PREV         &kp C_NEXT        &trans  &trans  &trans
                          &trans  &trans  &trans             &trans  &trans             &trans
+            >;
+        };
+
+        gaming_layer {
+            bindings = <
+&kp ESC           &kp Q  &kp W  &kp F  &kp P      &kp B            &kp J   &kp L   &kp U      &kp Y    &kp SQT   &trans
+&kp LEFT_SHIFT    &kp A  &kp R  &kp S  &kp T      &kp G            &kp M   &kp N   &kp E      &kp I    &kp O     &trans
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp D      &kp V            &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &trans
+                                &mo 6  &kp SPACE  &kp SEMICOLON    &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
