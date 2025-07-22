@@ -49,7 +49,7 @@
 
         default_layer {
             bindings = <
-&kp ESC       &kp Q              &kp W              &kp E                  &kp T                &kp Y        &kp Y      &kp U                 &kp I                       &kp O                   &kp P                  &kp DELETE
+&kp ESC       &kp Q              &kp W              &kp E                  &kp R                &kp T        &kp Y      &kp U                 &kp I                       &kp O                   &kp P                  &kp DELETE
 &kp CAPSLOCK  &kp A              &kp S              &kp D                  &kp F                &kp G        &kp H      &kp J                 &kp K                       &kp L                   &kp SEMI               &kp SQT
 &trans        &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT V  &kp B        &kp N      &hrm_r RIGHT_SHIFT M  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI FSLH  &trans
                                                     &mo 2                  &kp SPACE            &lt 4 TAB    &lt 3 RET  &kp BACKSPACE         &mo 1
@@ -67,10 +67,10 @@
 
         sym_layer {
             bindings = <
-&trans         &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS        &kp PIPE         &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR  &kp DOUBLE_QUOTES  &trans
-&kp BACKSLASH  &kp EXCLAMATION  &kp ASTERISK   &kp SLASH         &kp EQUAL        &kp AMPERSAND    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON   &kp SEMICOLON      &kp SINGLE_QUOTE
-&trans         &kp TILDE        &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp PERCENT      &kp AT_SIGN  &kp UNDERSCORE        &kp COMMA              &kp DOT     &kp QUESTION       &trans
-                                               &trans            &trans           &trans           &trans       &trans                &trans
+&trans         &kp GRAVE          &kp LESS_THAN     &kp GREATER_THAN                &kp MINUS                  &kp PIPE         &kp CARET    &kp LEFT_BRACKET          &kp RIGHT_BRACKET           &kp DOLLAR           &kp DOUBLE_QUOTES     &trans
+&kp BACKSLASH  &kp EXCLAMATION    &kp ASTERISK      &kp SLASH                       &kp EQUAL                  &kp AMPERSAND    &kp HASH     &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS       &kp COLON            &kp SEMICOLON         &kp SINGLE_QUOTE
+&trans         &hrm_l LGUI TILDE  &hrm_l LALT PLUS  &hrm_l LEFT_CONTROL LEFT_BRACE  &hrm_l LSHIFT RIGHT_BRACE  &kp PERCENT      &kp AT_SIGN  &hrm_l RSHIFT UNDERSCORE  &hrm_l RIGHT_CONTROL COMMA  &hrm_l LEFT_ALT DOT  &hrm_l RGUI QUESTION  &trans
+                                                    &trans                          &trans                     &trans           &trans       &trans                    &trans
             >;
         };
 
