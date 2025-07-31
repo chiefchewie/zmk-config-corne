@@ -49,10 +49,10 @@
 
         default_layer {
             bindings = <
-&kp ESC       &kp Q              &kp W              &kp F                  &kp P                &kp B        &kp J      &kp L                 &kp U                       &kp Y                   &kp SQT                &kp DELETE
-&kp CAPSLOCK  &kp A              &kp R              &kp S                  &kp T                &kp G        &kp M      &kp N                 &kp E                       &kp I                   &kp O                  &kp SEMI
-&trans        &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT D  &kp V        &kp K      &hrm_r RIGHT_SHIFT H  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI FSLH  &trans
-                                                    &mo 1                  &kp SPACE            &lt 3 TAB    &lt 4 RET  &kp BACKSPACE         &mo 2
+&kp ESC      &kp Q              &kp W              &kp F                  &kp P                &kp B        &kp J      &kp L                 &kp U                       &kp Y                   &kp SQT                &kp DELETE
+&caps_word   &kp A              &kp R              &kp S                  &kp T                &kp G        &kp M      &kp N                 &kp E                       &kp I                   &kp O                  &kp SEMI
+&key_repeat  &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT D  &kp V        &kp K      &hrm_r RIGHT_SHIFT H  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI FSLH  &trans
+                                                   &mo 1                  &kp SPACE            &lt 3 TAB    &lt 4 RET  &kp BACKSPACE         &mo 2
             >;
         };
 
