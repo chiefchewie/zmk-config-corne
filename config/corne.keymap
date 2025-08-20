@@ -49,9 +49,9 @@
 
         default_layer {
             bindings = <
-&kp ESC     &kp Q              &kp W              &kp E                  &kp R                &kp T        &kp Y        &kp U                 &kp I                       &kp O                    &kp P                   &kp DELETE
-&caps_word  &kp A              &kp S              &kp D                  &kp F                &kp G        &kp H        &kp J                 &kp K                       &kp L                    &kp SEMI                &kp SQT
-&none       &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT V  &kp B        &kp N        &hrm_r RIGHT_SHIFT M  &hrm_r RIGHT_CONTROL COMMA  &hrm_r RIGHT_ALT PERIOD  &hrm_r RIGHT_GUI SLASH  &key_repeat
+&kp ESC     &kp Q              &kp W              &kp F                  &kp P                &kp B        &kp J        &kp L                 &kp U                       &kp Y                    &kp SQT                 &kp DELETE
+&caps_word  &kp A              &kp R              &kp S                  &kp T                &kp G        &kp M        &kp N                 &kp E                       &kp I                    &kp O                   &kp SEMICOLON
+&none       &hrm_l LEFT_GUI Z  &hrm_l LEFT_ALT X  &hrm_l LEFT_CONTROL C  &hrm_l LEFT_SHIFT D  &kp V        &kp K        &hrm_r RIGHT_SHIFT H  &hrm_r RIGHT_CONTROL COMMA  &hrm_r RIGHT_ALT PERIOD  &hrm_r RIGHT_GUI SLASH  &key_repeat
                                                   &mo 3                  &kp SPACE            &lt 1 TAB    &lt 4 ENTER  &kp BACKSPACE         &mo 2
             >;
         };
@@ -67,8 +67,8 @@
 
         sym_layer {
             bindings = <
-&trans         &kp GRAVE              &kp LESS_THAN         &kp GREATER_THAN                &kp MINUS                      &kp PIPE         &kp CARET    &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp DOLLAR              &kp DOUBLE_QUOTES          &trans
-&kp BACKSLASH  &kp EXCLAMATION        &kp ASTERISK          &kp FSLH                        &kp EQUAL                      &kp AMPERSAND    &kp HASH     &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS       &kp COLON               &kp SEMICOLON              &kp SQT
+&trans         &kp GRAVE              &kp LESS_THAN         &kp GREATER_THAN                &kp MINUS                      &kp PIPE         &kp CARET    &kp LEFT_BRACKET               &kp RIGHT_BRACKET           &kp DOLLAR              &kp SQT                    &trans
+&kp BACKSLASH  &kp EXCLAMATION        &kp ASTERISK          &kp FSLH                        &kp EQUAL                      &kp AMPERSAND    &kp HASH     &kp LEFT_PARENTHESIS           &kp RIGHT_PARENTHESIS       &kp COLON               &kp DOUBLE_QUOTES          &kp SEMICOLON
 &trans         &hrm_l LEFT_GUI TILDE  &hrm_l LEFT_ALT PLUS  &hrm_l LEFT_CONTROL LEFT_BRACE  &hrm_l LEFT_SHIFT RIGHT_BRACE  &kp PERCENT      &kp AT_SIGN  &hrm_r RIGHT_SHIFT UNDERSCORE  &hrm_r RIGHT_CONTROL COMMA  &hrm_r LEFT_ALT PERIOD  &hrm_r RIGHT_GUI QUESTION  &trans
                                                             &trans                          &trans                         &trans           &trans       &trans                         &trans
             >;
