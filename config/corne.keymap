@@ -96,7 +96,7 @@
         compatible = "zmk,conditional-layers";
 
         activate_num {
-            if-layers = <2 2>;
+            if-layers = <1 2>;
             then-layer = <3>;
         };
     };
